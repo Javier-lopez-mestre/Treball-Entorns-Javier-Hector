@@ -1,6 +1,5 @@
 package com.example;
-import com.example.Figura;
-
+// Clase rectangulo de prueba
 public class Rectangulo extends Figura {
     private double anchura;
     private double altura;
