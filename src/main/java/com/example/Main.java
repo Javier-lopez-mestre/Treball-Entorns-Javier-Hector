@@ -1,9 +1,13 @@
 package com.example;
 
-import main.java.com.Rectangulo;
-import main.java.com.example.Circulo;
-import main.java.com.example.Figura;
-import main.java.com.example.Triangulo;
+import com.example.Rectangulo;
+
+import com.example.Circulo;
+
+import com.example.Figura;
+
+import com.example.Triangulo;
+
 
 public class Main {
     public static void main(String[] args) {
