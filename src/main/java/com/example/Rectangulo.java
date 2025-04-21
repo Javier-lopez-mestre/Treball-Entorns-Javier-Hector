@@ -1,5 +1,6 @@
 package com.example;
-// Clase rectangulo de prueba
+// Clase rectangle
+
 public class Rectangulo extends Figura {
     private double anchura;
     private double altura;
@@ -9,11 +10,13 @@ public class Rectangulo extends Figura {
         this.altura = altura;
     }
 
+    // Funció calcul area    
     @Override
     public double calculoArea() {
         return anchura * altura;
     }
 
+    // Funció calcul perimetre
     @Override
     public double calculoPerimetro() {
         return 2 * (anchura + altura);
