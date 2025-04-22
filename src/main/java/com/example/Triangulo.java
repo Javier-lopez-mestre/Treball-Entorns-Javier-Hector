@@ -1,5 +1,9 @@
 package com.example;
-//Clase triangle
+
+/**
+ * La clase Triangulo representa un triángulo que extiende de la clase Figura.
+ * Proporciona métodos para calcular el área y el perímetro del triángulo.
+ */
 public class Triangulo extends Figura {
     private double lado1;
     private double lado2;
@@ -11,16 +15,23 @@ public class Triangulo extends Figura {
         this.lado3 = lado3;
     }
 
-
-    // Funció calcul area
-
+    /**
+     * Calcula el área del triángulo utilizando la fórmula de Herón.
+     *
+     * @return El área del triángulo.
+     */
+    
     @Override
     public double calculoArea() {
         double s = (lado1 + lado2 + lado3) / 2;
         return Math.sqrt(s * (s - lado1) * (s - lado2) * (s - lado3));
     }
 
-    // Funció calcul perimetre
+    /**
+     * Calcula el perímetro del triángulo.
+     *
+     * @return El perímetro del triángulo.
+     */
 
     @Override
     public double calculoPerimetro() {
