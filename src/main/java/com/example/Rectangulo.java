@@ -1,6 +1,9 @@
 package com.example;
-// Clase rectangle
 
+/**
+ * La clase Rectangulo representa un rectángulo y extiende de la clase Figura.
+ * Proporciona métodos para calcular el área y el perímetro del rectángulo.
+ */
 public class Rectangulo extends Figura {
     private double anchura;
     private double altura;
@@ -10,13 +13,21 @@ public class Rectangulo extends Figura {
         this.altura = altura;
     }
 
-    // Funció calcul area    
+    /**
+     * Calcula el área del rectángulo.
+     *
+     * @return El área del rectángulo.
+     */   
     @Override
     public double calculoArea() {
         return anchura * altura;
     }
 
-    // Funció calcul perimetre
+    /**
+     * Calcula el perímetro del rectángulo.
+     *
+     * @return El perímetro del rectángulo.
+     */
     @Override
     public double calculoPerimetro() {
         return 2 * (anchura + altura);
