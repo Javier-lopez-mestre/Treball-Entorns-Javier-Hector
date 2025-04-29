@@ -32,3 +32,20 @@ El proyecto utiliza la librería `JUnit 5` para realizar pruebas. Esta dependenc
   javadoc -d doc src/main/java/com/example/*.java
   ```
  * Este comando genera la documentación en la carpeta "doc" de todos los archivos ubicados en "src/main/java/com/example/".
+
+
+## Diagrama de clases
+
+Un diagrama de clases es una representación gráfica utilizada en el diseño de software para modelar la estructura de un sistema. Forma parte del Lenguaje Unificado de Modelado (UML, por sus siglas en inglés) y muestra las clases, sus atributos, métodos y las relaciones entre ellas.
+
+### Componentes principales:
+- **Clases**: Representan entidades del sistema, con sus atributos (propiedades) y métodos (funciones o comportamientos).
+- **Relaciones**: Incluyen asociaciones, herencias, composiciones y agregaciones, que describen cómo interactúan o están conectadas las clases.
+- **Visibilidad**: Indica el nivel de acceso a los atributos y métodos (público, privado, protegido).
+
+Los diagramas de clases son útiles para planificar, documentar y comunicar la arquitectura de un sistema antes de implementarlo en código.
+
+**Ejemplo:**
+![alt text](image.png)
+
+Este diagrama de clases representa un sistema de gestión de cajeros automáticos (ATM) y cuentas bancarias.
