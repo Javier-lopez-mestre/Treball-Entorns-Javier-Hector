@@ -49,3 +49,10 @@ Los diagramas de clases son útiles para planificar, documentar y comunicar la a
 ![alt text](image.png)
 
 Este diagrama de clases representa un sistema de gestión de cajeros automáticos (ATM) y cuentas bancarias.
+
+
+Podemos observar nuestro diagrama de clases de el ejemplo hecho:
+
+![alt text](DiagramaDeClases.png)
+
+Para ello hemos utilizado la aplicación draw.io
